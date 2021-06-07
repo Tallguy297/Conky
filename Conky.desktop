@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=/usr/bin/conky -d
-X-GNOME-Autostart-enabled=true
-NoDisplay=false
-Hidden=false
-Name[en_AU]=Conky
-Comment[en_AU]=System information tool
-X-GNOME-Autostart-Delay=5

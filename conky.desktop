@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Install Conky System Information Tool
+Comment=Installs KODI Media Centre & Other Software
+Exec=gnome-terminal -e "bash -c 'cd \"$(dirname "\"%k\"")\"; sudo bash "./install.sh"'"
+Icon=org.gnome.DiskUtility
+Terminal=false
+Type=Application
+Categories=Application;

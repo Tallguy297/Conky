@@ -3,7 +3,7 @@
 function get-conky() {
 echo -e '\033[1;33mInstalling \033[1;34mConky\033[0m'
 apt-get -y -qq install conky-all >/dev/null
-cp -f files/conky.conf /home/$(users)/.conkyrc
+cp -f conky.conf /home/$(users)/.conkyrc
 chmod 0777 -R /home/$(users)/.conkyrc
 echo -e '[Desktop Entry]'>/home/$(users)/.config/autostart/conky.desktop
 echo -e 'Type=Application'>>/home/$(users)/.config/autostart/conky.desktop
